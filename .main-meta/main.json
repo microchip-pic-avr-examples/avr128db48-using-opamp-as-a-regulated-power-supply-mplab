@@ -1,0 +1,71 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
+        "version": "1.0.0",
+        "displayName": "AVR128DB48 using opamp as a regulated power supply mplab",
+        "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
+        "shortDescription": "",
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ""
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": ""
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "AVR128DB48",
+                "versionRange": "*"
+            }
+        },
+        "author": "",
+        "subcategories": [
+            "",
+            [
+                "Peripherals",
+                ""
+            ],
+            [
+                "Peripherals",
+                ""
+            ]
+        ],
+        "peripherals": [
+            "",
+            ""
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
