@@ -7,6 +7,7 @@
 
 #define F_CPU 4000000ul
 #define CLK_PER 4000000ul
+#define OPAMP_MAX_SETTLE_TIME 0x7F
 #include <avr/io.h>
 #include <math.h>
 
@@ -33,6 +34,7 @@ void op_amp_init()
 	OPAMP.CTRLA = OPAMP_ENABLE_bm;
 	OPAMP.TIMEBASE = (uint8_t) ceil(CLK_PER*0.000001)-1; /*Number of peripheral clock cycles that amounts to 1us*/
 	OPAMP.OP1CTRLA = OPAMP_RUNSTBY_bm | OPAMP_ALWAYSON_bm | OPAMP_OP1CTRLA_OUTMODE_NORMAL_gc;
+    OPAMP.OP0SETTLE = OPAMP_MAX_SETTLE_TIME; //As the settle time is unknown, the maximums should be set
 }
 
 void op_amp_setup_ext_resistors()
