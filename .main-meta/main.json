@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-using-opamp-as-a-regulated-power-supply",
         "version": "1.0.0",
-        "displayName": "AVR128DB48 using opamp as a regulated power supply mplab",
-        "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
-        "shortDescription": "",
+        "displayName": "Using OPAMP as a Regulated Power Supply",
+        "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply",
+        "shortDescription": "This application note describes how to use the Analog Signal Conditioning (OPAMP) as a regulated power supply for a second voltage domain. This removes the need for a second power supply. The regulated power supply features is showcased by acting as the second power supply for the Multi-Voltage I/O (MVIO).   ",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.40"
         },
         "compiler": [
-            {
-                "name": "XC8",
-                "semverRange": ""
-            }
-        ],
+			{
+				"name": "XC8",
+				"semverRange": "^2.20"
+			}
+		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.4.75"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -36,36 +36,51 @@
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-                "Peripherals",
-                ""
+                "Peripherals", "OPAMP"
             ],
             [
-                "Peripherals",
-                ""
-            ]
+                "Peripherals", "MVIO"
+            ],            			
+            [
+                "Peripherals", "DAC"
+            ],
+            [
+                "Peripherals", "VREF"
+            ],
+            [
+                "Peripherals", "ADC"
+            ],
+            [
+                "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]            			
         ],
         "peripherals": [
-            "",
-            ""
+            "OPAMP","MVIO","DAC","VREF","ADC"
         ],
         "keywords": [
-            "",
-            ""
+            "analog signal conditioning",
+            "operational amplifier",
+            "op amp",
+            "voltage follower",
+            "resistor ladder",
+            "regulated supply",
+            "CNANO",
+            "CIP",
+            "VDDIO2"	
         ],
-        "additionalData": {
-            "longDescription": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.fileRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "fileName": "./README.md",
-                    "mimeType": "text/markdown"
-                }
-            }
-        }
-    }
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
 }

@@ -17,11 +17,11 @@
             </sourceRootList>
             <confList>
                 <confElem>
-                    <name>Release</name>
+                    <name>free</name>
                     <type>2</type>
                 </confElem>
                 <confElem>
-                    <name>Debug</name>
+                    <name>pro</name>
                     <type>2</type>
                 </confElem>
             </confList>
