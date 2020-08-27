@@ -13,6 +13,7 @@ A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP)
 ## Related Documentation
 * [ANxxxx - AVR128DB48 Using the Internal OPAMP as Regulated Power Supply for MVIO](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
 * [AVR128DB48 device page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
 
 ## Software Used
 * [MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide) 5.40 or later
