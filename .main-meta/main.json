@@ -61,12 +61,12 @@
             "OPAMP","MVIO","DAC","VREF","ADC"
         ],
         "keywords": [
-            "analog signal conditioning",
-            "operational amplifier",
-            "op amp",
-            "voltage follower",
-            "resistor ladder",
-            "regulated supply",
+            "Analog Signal Conditioning",
+            "Operational Amplifier",
+            "Op Amp",
+            "Voltage Follower",
+            "Resistor Ladder",
+            "Regulated Supply",
             "CNANO",
             "CIP",
             "VDDIO2"	
