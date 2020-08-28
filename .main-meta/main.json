@@ -48,9 +48,6 @@
                 "Peripherals", "DAC"
             ],
             [
-                "Peripherals", "VREF"
-            ],
-            [
                 "Peripherals", "ADC"
             ],
             [
@@ -58,7 +55,7 @@
             ]            			
         ],
         "peripherals": [
-            "OPAMP","MVIO","DAC","VREF","ADC"
+            "OPAMP","MVIO","DAC","ADC"
         ],
         "keywords": [
             "Analog Signal Conditioning",
