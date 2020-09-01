@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Using OPAMP as a Regulated Power Supply",
         "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply",
-        "shortDescription": "This application note describes how to use the Analog Signal Conditioning (OPAMP) as a regulated power supply for a second voltage domain. This removes the need for a second power supply. The regulated power supply features is showcased by acting as the second power supply for the Multi-Voltage I/O (MVIO).   ",
+        "shortDescription": "This MPLAB X bare metal example in Using the Internal OPAMP as Regulated Power Supply for MVIO (AN3636) shows how to use the OPAMP as a regulated power supply for a second voltage domain. This removes the need for a second external power supply. The regulated power supply features is showcased by acting as the second power supply for the Multi-Voltage I/O (MVIO)",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.40"
@@ -66,7 +66,11 @@
             "Regulated Supply",
             "CNANO",
             "CIP",
-            "VDDIO2"	
+            "VDDIO2",
+            "AVR-DB",
+            "AVRDB",
+            "using-opamp-as-a-regulated-power-supply"
+
         ],
 		"additionalData": {
 			"longDescription": {
