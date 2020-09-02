@@ -28,6 +28,21 @@
 #include <avr/io.h>
 #include <math.h>
 
+// To compile the fuse configuration, the FUSES macro is used. The fuse settings are set to the device production values.
+FUSES = {
+    .WDTCFG = FUSE_WDTCFG_DEFAULT,
+    .BODCFG = FUSE_BODCFG_DEFAULT,
+    .OSCCFG = FUSE_OSCCFG_DEFAULT,
+    .SYSCFG0 = FUSE_SYSCFG0_DEFAULT,
+    .SYSCFG1 = FUSE_SYSCFG1_DEFAULT,
+    .CODESIZE = FUSE_CODESIZE_DEFAULT,
+    .BOOTSIZE = FUSE_BOOTSIZE_DEFAULT,
+};
+// To compile the lockbits configuration, the LOCKBITS macro is used. The lockbits are set to unlocked.
+LOCKBITS = {
+    LOCKBITS_DEFAULT,
+};
+
 void op_amp_init();
 void op_amp_setup_int_resistors(uint8_t MUXWIP_gc);
 
