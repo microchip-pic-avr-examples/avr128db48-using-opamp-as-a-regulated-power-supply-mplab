@@ -4,16 +4,16 @@
 # AVR128DB48 Using the Internal Opamp as Regulated Power Supply for MVIO
 
 A new feature introduced in the AVR® DB family is the Analog Signal Conditioning (OPAMP) peripheral. In this example, the OPAMP is used as an adjustable power supply. This eliminates the need for an external power supply for a second voltage domain. One op amp is configured as a voltage follower and code examples for four scenarios are presented:
-1.	Voltage reference using the internal resistor ladder
-2.	Voltage reference using an external resistor
-3.	Voltage reference using the internal DAC
-4.	Monitoring voltage level with the internal ADC
+1.	Voltage reference using the internal resistor ladder.
+2.	Voltage reference using an external resistor.
+3.	Voltage reference using the internal DAC.
+4.	Monitoring voltage level with the internal ADC.
 
 
 ## Related Documentation
 * [AN3636 - AVR128DB48 Using the Internal OPAMP as Regulated Power Supply for MVIO](https://microchip.com/DS00003636)
 * [AVR128DB48 device page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
-* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
+* [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 
 ## Software Used
 * [MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide) 5.40 or later
