@@ -69,7 +69,7 @@
             "VDDIO2",
             "AVR-DB",
             "AVRDB",
-            "using-opamp-as-a-regulated-power-supply"
+            "use-opamp-regulated-power-supply"
 
         ],
 		"additionalData": {
