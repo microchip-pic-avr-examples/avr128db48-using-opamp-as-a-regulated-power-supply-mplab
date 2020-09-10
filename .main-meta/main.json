@@ -3,7 +3,7 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
+        "name": "com.microchip.mcu8.mplabx.project.avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
         "version": "1.0.1",
         "displayName": "Using OPAMP as a Regulated Power Supply",
         "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply",
