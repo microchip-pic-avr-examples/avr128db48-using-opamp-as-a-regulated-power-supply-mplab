@@ -3,8 +3,8 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.avr128db48-using-opamp-as-a-regulated-power-supply",
-        "version": "1.0.0",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
+        "version": "1.0.1",
         "displayName": "Using OPAMP as a Regulated Power Supply",
         "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply",
         "shortDescription": "This MPLAB X bare metal example in Using the Internal OPAMP as Regulated Power Supply for MVIO (AN3636) shows how to use the OPAMP as a regulated power supply for a second voltage domain. This removes the need for a second external power supply. The regulated power supply features is showcased by acting as the second power supply for the Multi-Voltage I/O (MVIO)",
