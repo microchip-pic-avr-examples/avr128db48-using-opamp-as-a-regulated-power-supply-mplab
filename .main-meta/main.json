@@ -4,20 +4,20 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "displayName": "Using OPAMP as a Regulated Power Supply",
         "projectName": "avr128db48-using-opamp-as-a-regulated-power-supply-mplab",
         "shortDescription": "This MPLAB X bare metal example in Using the Internal OPAMP as Regulated Power Supply for MVIO (AN3636) shows how to use the OPAMP as a regulated power supply for a second voltage domain. This removes the need for a second external power supply. The regulated power supply features is showcased by acting as the second power supply for the Multi-Voltage I/O (MVIO)",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.40"
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
             "name": "AVR-Dx_DFP",
             "semverRange": "^1.4.75"
@@ -39,23 +39,31 @@
         "author": "Microchip",
         "subcategories": [
             [
-                "Peripherals", "OPAMP"
+                "Peripherals",
+                "OPAMP"
             ],
             [
-                "Peripherals", "MVIO"
-            ],            			
-            [
-                "Peripherals", "DAC"
+                "Peripherals",
+                "MVIO"
             ],
             [
-                "Peripherals", "ADC"
+                "Peripherals",
+                "DAC"
             ],
             [
-                "Development Kit", "AVR128DB48 Curiosity Nano"
-            ]            			
+                "Peripherals",
+                "ADC"
+            ],
+            [
+                "Development Kit",
+                "AVR128DB48 Curiosity Nano"
+            ]
         ],
         "peripherals": [
-            "OPAMP","MVIO","DAC","ADC"
+            "OPAMP",
+            "MVIO",
+            "DAC",
+            "ADC"
         ],
         "keywords": [
             "Analog Signal Conditioning",
@@ -70,18 +78,17 @@
             "AVR-DB",
             "AVRDB",
             "use-opamp-regulated-power-supply"
-
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
